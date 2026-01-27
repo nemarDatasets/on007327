@@ -32,6 +32,16 @@ data:
         nameIdentifiers: []
         contributorType: HostingInstitution
         order: 3
+      - name: Lingrong Jia
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: &ref_2
+          - nameIdentifier: https://orcid.org/0009-0005-2472-3590
+            nameIdentifierScheme: ORCID
+            schemeUri: https://orcid.org
+        contributorType: RelatedPerson
+        order: 4
     creators:
       - name: Jiaqi Wang
         nameType: Personal
@@ -43,6 +53,9 @@ data:
           Institute of Psychological and Brain Sciences, Liaoning Normal
           University
         nameType: Personal
+      - name: Lingrong Jia
+        nameType: Personal
+        nameIdentifiers: *ref_2
     descriptions:
       - description: N/A
         descriptionType: Abstract
