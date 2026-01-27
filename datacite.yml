@@ -42,6 +42,16 @@ data:
         nameIdentifiers: []
         contributorType: HostingInstitution
         order: 4
+      - name: Jiahui Han
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: &ref_3
+          - nameIdentifier: https://orcid.org/0000-0002-5392-3146
+            nameIdentifierScheme: ORCID
+            schemeUri: https://orcid.org
+        contributorType: Researcher
+        order: 5
     creators:
       - name: Jiaqi Wang
         nameType: Personal
@@ -56,6 +66,9 @@ data:
           Institute of Psychological and Brain Sciences, Liaoning Normal
           University
         nameType: Personal
+      - name: Jiahui Han
+        nameType: Personal
+        nameIdentifiers: *ref_3
     descriptions:
       - description: N/A
         descriptionType: Abstract
