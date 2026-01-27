@@ -63,36 +63,16 @@ data:
             schemeUri: https://orcid.org
         contributorType: Researcher
         order: 6
-      - name: Jiaqi Wang
-        givenName: ''
-        familyName: ''
-        nameType: Personal
-        nameIdentifiers: &ref_6
-          - nameIdentifier: https://orcid.org/0009-0002-7659-2519
-            nameIdentifierScheme: ORCID
-            schemeUri: https://orcid.org
-        contributorType: RelatedPerson
-        order: 7
       - name: Jiahui Han
         givenName: ''
         familyName: ''
         nameType: Personal
-        nameIdentifiers: &ref_7
+        nameIdentifiers: &ref_6
           - nameIdentifier: https://orcid.org/0000-0002-5392-3146
             nameIdentifierScheme: ORCID
             schemeUri: https://orcid.org
         contributorType: Researcher
-        order: 8
-      - name: Ming Tang
-        givenName: ''
-        familyName: ''
-        nameType: Personal
-        nameIdentifiers: &ref_8
-          - nameIdentifier: https://orcid.org/0009-0004-3876-8653
-            nameIdentifierScheme: ORCID
-            schemeUri: https://orcid.org
-        contributorType: Researcher
-        order: 9
+        order: 7
     creators:
       - name: Jiaqi Wang
         nameType: Personal
@@ -112,15 +92,9 @@ data:
       - name: Jiahui Han
         nameType: Personal
         nameIdentifiers: *ref_5
-      - name: Jiaqi Wang
-        nameType: Personal
-        nameIdentifiers: *ref_6
       - name: Jiahui Han
         nameType: Personal
-        nameIdentifiers: *ref_7
-      - name: Ming Tang
-        nameType: Personal
-        nameIdentifiers: *ref_8
+        nameIdentifiers: *ref_6
     descriptions:
       - description: N/A
         descriptionType: Abstract
