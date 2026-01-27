@@ -14,5 +14,8 @@
             "Name": "MATLAB BIDS Converter",
             "Version": "1.0"
         }
+    ],
+    "EthicsApprovals": [
+        "This study was conducted in accordance with the Declaration of Helsinki and approved by the Ethics Committee of Liaoning Normal University (Approval Number: LL2025026). "
     ]
 }
