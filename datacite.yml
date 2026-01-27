@@ -3,15 +3,6 @@ data:
     types:
       resourceTypeGeneral: Dataset
     contributors:
-      - name: >-
-          Institute of Psychological and Brain Sciences, Liaoning Normal
-          University
-        givenName: ''
-        familyName: ''
-        nameType: Personal
-        nameIdentifiers: []
-        contributorType: HostingInstitution
-        order: 1
       - name: Ming Tang
         givenName: ''
         familyName: ''
@@ -21,15 +12,24 @@ data:
             nameIdentifierScheme: ORCID
             schemeUri: https://orcid.org
         contributorType: Researcher
+        order: 1
+      - name: >-
+          Institute of Psychological and Brain Sciences, Liaoning Normal
+          University
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: HostingInstitution
         order: 2
     creators:
+      - name: Ming Tang
+        nameType: Personal
+        nameIdentifiers: *ref_0
       - name: >-
           Institute of Psychological and Brain Sciences, Liaoning Normal
           University
         nameType: Personal
-      - name: Ming Tang
-        nameType: Personal
-        nameIdentifiers: *ref_0
     descriptions:
       - description: N/A
         descriptionType: Abstract
