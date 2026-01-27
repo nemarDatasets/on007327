@@ -63,15 +63,15 @@ data:
             schemeUri: https://orcid.org
         contributorType: Researcher
         order: 6
-      - name: Lingrong Jia
+      - name: Jiahui Han
         givenName: ''
         familyName: ''
         nameType: Personal
         nameIdentifiers: &ref_6
-          - nameIdentifier: https://orcid.org/0009-0005-2472-3590
+          - nameIdentifier: https://orcid.org/0000-0002-5392-3146
             nameIdentifierScheme: ORCID
             schemeUri: https://orcid.org
-        contributorType: RelatedPerson
+        contributorType: Researcher
         order: 7
     creators:
       - name: Jiaqi Wang
@@ -92,7 +92,7 @@ data:
       - name: Jiahui Han
         nameType: Personal
         nameIdentifiers: *ref_5
-      - name: Lingrong Jia
+      - name: Jiahui Han
         nameType: Personal
         nameIdentifiers: *ref_6
     descriptions:
