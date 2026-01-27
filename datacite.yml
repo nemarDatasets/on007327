@@ -12,11 +12,24 @@ data:
         nameIdentifiers: []
         contributorType: HostingInstitution
         order: 1
+      - name: Ming Tang
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: &ref_0
+          - nameIdentifier: https://orcid.org/0009-0004-3876-8653
+            nameIdentifierScheme: ORCID
+            schemeUri: https://orcid.org
+        contributorType: Researcher
+        order: 2
     creators:
       - name: >-
           Institute of Psychological and Brain Sciences, Liaoning Normal
           University
         nameType: Personal
+      - name: Ming Tang
+        nameType: Personal
+        nameIdentifiers: *ref_0
     descriptions:
       - description: N/A
         descriptionType: Abstract
