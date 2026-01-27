@@ -93,15 +93,15 @@ data:
             schemeUri: https://orcid.org
         contributorType: Researcher
         order: 9
-      - name: Ming Tang
+      - name: Lingrong Jia
         givenName: ''
         familyName: ''
         nameType: Personal
         nameIdentifiers: &ref_9
-          - nameIdentifier: https://orcid.org/0009-0004-3876-8653
+          - nameIdentifier: https://orcid.org/0009-0005-2472-3590
             nameIdentifierScheme: ORCID
             schemeUri: https://orcid.org
-        contributorType: Researcher
+        contributorType: RelatedPerson
         order: 10
     creators:
       - name: Jiaqi Wang
@@ -131,7 +131,7 @@ data:
       - name: Ming Tang
         nameType: Personal
         nameIdentifiers: *ref_8
-      - name: Ming Tang
+      - name: Lingrong Jia
         nameType: Personal
         nameIdentifiers: *ref_9
     descriptions:
