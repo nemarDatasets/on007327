@@ -23,16 +23,26 @@ data:
             schemeUri: https://orcid.org
         contributorType: RelatedPerson
         order: 2
-      - name: Lingrong Jia
+      - name: Jiahui Han
         givenName: ''
         familyName: ''
         nameType: Personal
         nameIdentifiers: &ref_2
-          - nameIdentifier: https://orcid.org/0009-0005-2472-3590
+          - nameIdentifier: https://orcid.org/0000-0002-5392-3146
             nameIdentifierScheme: ORCID
             schemeUri: https://orcid.org
-        contributorType: RelatedPerson
+        contributorType: Researcher
         order: 3
+      - name: Ming Tang
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: &ref_3
+          - nameIdentifier: https://orcid.org/0009-0004-3876-8653
+            nameIdentifierScheme: ORCID
+            schemeUri: https://orcid.org
+        contributorType: Researcher
+        order: 4
     creators:
       - name: Jiaqi Wang
         nameType: Personal
@@ -40,9 +50,12 @@ data:
       - name: Lingrong Jia
         nameType: Personal
         nameIdentifiers: *ref_1
-      - name: Lingrong Jia
+      - name: Jiahui Han
         nameType: Personal
         nameIdentifiers: *ref_2
+      - name: Ming Tang
+        nameType: Personal
+        nameIdentifiers: *ref_3
     descriptions:
       - description: N/A
         descriptionType: Abstract
