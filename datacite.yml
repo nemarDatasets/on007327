@@ -63,12 +63,12 @@ data:
             schemeUri: https://orcid.org
         contributorType: Researcher
         order: 6
-      - name: Jiaqi Wang
+      - name: Lingrong Jia
         givenName: ''
         familyName: ''
         nameType: Personal
         nameIdentifiers: &ref_6
-          - nameIdentifier: https://orcid.org/0009-0002-7659-2519
+          - nameIdentifier: https://orcid.org/0009-0005-2472-3590
             nameIdentifierScheme: ORCID
             schemeUri: https://orcid.org
         contributorType: RelatedPerson
@@ -92,7 +92,7 @@ data:
       - name: Jiahui Han
         nameType: Personal
         nameIdentifiers: *ref_5
-      - name: Jiaqi Wang
+      - name: Lingrong Jia
         nameType: Personal
         nameIdentifiers: *ref_6
     descriptions:
