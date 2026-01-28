@@ -52,6 +52,15 @@ data:
         nameIdentifiers: []
         contributorType: HostingInstitution
         order: 5
+      - name: >-
+          School of Physics and Electronic Technology, Liaoning Normal
+          University
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: HostingInstitution
+        order: 6
     creators:
       - name: Jiahui Han
         nameType: Personal
@@ -67,6 +76,10 @@ data:
         nameIdentifiers: *ref_3
       - name: >-
           Institute of Psychological and Brain Sciences, Liaoning Normal
+          University
+        nameType: Personal
+      - name: >-
+          School of Physics and Electronic Technology, Liaoning Normal
           University
         nameType: Personal
     descriptions:
