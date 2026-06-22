@@ -1,0 +1,1 @@
+{"Name":"Derived data for basketball motor imagery EEG","BIDSVersion":"1.8.0","Description":"Preprocessed EEG data and PLV functional connectivity results (passing task PLV reflects observe/imagine opponent→self/self→opponent)","SourceDataSets":{"Path":"../"}}
