@@ -1,0 +1,26 @@
+{
+  "version": "2.0",
+  "dataset_id": "on007327",
+  "source": "openneuro",
+  "source_id": "ds007327",
+  "title": "Basketball Motor Imagery EEG Dataset",
+  "authors": {
+    "Jiahui Han": {},
+    "Jiaqi Wang": {},
+    "Lingrong Jia": {},
+    "Ming Tang": {},
+    "School of Physics and Electronic Technology, Liaoning Normal University": {},
+    "Institute of Psychological and Brain Sciences, Liaoning Normal University": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds007327.v1.1.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.8.0"
+}
