@@ -1,26 +1,76 @@
 {
   "version": "2.0",
-  "dataset_id": "on007327",
-  "source": "openneuro",
-  "source_id": "ds007327",
+  "pipeline_stage": "validated",
   "title": "Basketball Motor Imagery EEG Dataset",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
-    "Jiahui Han": {},
-    "Jiaqi Wang": {},
-    "Lingrong Jia": {},
-    "Ming Tang": {},
+    "Jiahui Han": {
+      "orcid": "0000-0002-5392-3146"
+    },
+    "Jiaqi Wang": {
+      "orcid": "0009-0002-7659-2519"
+    },
+    "Lingrong Jia": {
+      "orcid": "0009-0005-2472-3590"
+    },
+    "Ming Tang": {
+      "orcid": "0009-0004-3876-8653"
+    },
     "School of Physics and Electronic Technology, Liaoning Normal University": {},
     "Institute of Psychological and Brain Sciences, Liaoning Normal University": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007327.v1.1.0",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007327",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007327",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0"
+  "resource_type_general": "Dataset",
+  "sizes": [
+    "70.41 GB (1010 files)"
+  ],
+  "formats": [
+    ".csv",
+    ".json",
+    ".mat",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "EEG recordings from 35 healthy participants performing three basketball-related motor observation and motor imagery tasks: single-handed dribbling, two-handed ball passing, and two-person passing. The dataset provides raw EEG, preprocessed data, and phase locking value (PLV) functional connectivity results. It supports research on motor imagery, action observation, and interpersonal neural coupling in sport-related contexts.",
+  "methods_description": "EEG was recorded with an ANT Neuro system using 64 channels at a 1000 Hz sampling rate. Participants completed dribble (5 conditions), ballpass (4 conditions) and two-person passing tasks (4 combined conditions: MOMO/MOMI/MIMO/MIMI, and 4 PLV conditions). Data are organized according to BIDS 1.8.0.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "motor observation"
+    },
+    {
+      "term": "basketball"
+    },
+    {
+      "term": "phase locking value"
+    },
+    {
+      "term": "functional connectivity"
+    }
+  ],
+  "source_hash": "38254d58d02c2d3c04f5c3a544f73daf1bba98999c4cbf0f73401b102f53e335"
 }
