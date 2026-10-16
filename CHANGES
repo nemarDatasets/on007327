@@ -1,3 +1,7 @@
+1.0.3 2026-10-16
+  - Removed 48 individually classified root temporary Git-annex pointers: 46 resolve to zero-byte objects and two to incomplete duplicate metadata fragments without source/provenance identifiers. No recordings or sidecars changed. The remote S3 objects were not modified.
+  - The current public NEMAR baseline is v1.0.1. This patch uses v1.0.3 to avoid reusing the inherited historical 1.0.2 heading below; the existing historical entry and published tags are preserved.
+
 1.0.1 2026-10-16
   - Added the required units column to 105 raw EEG channel tables and marked 6,720 EEG rows n/a because the paper and source sidecars do not specify the stored raw .set scale. The paper’s ±100 µV epoch-rejection threshold is a preprocessing detail, not a raw-file unit declaration. BIDS 1.8.0 requires this column and encodes missing TSV values as n/a. Sources: https://doi.org/10.1038/s41597-026-08165-4, https://bids-specification.readthedocs.io/en/v1.8.0/02-common-principles.html, and https://bids-specification.readthedocs.io/en/v1.8.0/04-modality-specific-files/03-electroencephalography.html.
   - Added datacite.yml to .bidsignore because it is supplemental root metadata outside the BIDS filename specification; the file remains tracked. Source: https://github.com/bids-standard/bids-validator/blob/2.4.1/src/issues/list.ts.
