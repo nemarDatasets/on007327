@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Basketball Motor Imagery EEG Dataset",
-  "description": "EEG recordings from 35 healthy participants performing three basketball-related motor observation and motor imagery tasks: single-handed dribbling, two-handed ball passing, and two-person passing. The dataset includes raw EEG, preprocessed data, and phase-locking value (PLV) functional connectivity results. It supports research on motor imagery, action observation, and inter-brain or functional connectivity in sport-related contexts.",
-  "methods_description": "EEG was recorded with an ANT Neuro system using 64 channels at a 1000 Hz sampling rate. Participants completed dribble (5 conditions), ballpass (4 conditions), and passing (4 combined conditions and 4 PLV conditions) tasks involving motor observation and motor imagery.",
+  "description": "EEG recordings from 35 healthy participants performing three basketball-related motor observation and motor imagery tasks: single-handed dribbling, two-handed ball passing, and two-person passing. The dataset provides raw EEG, preprocessed data, and phase-locking value (PLV) functional connectivity results. It supports research on motor imagery, action observation, and interpersonal neural synchrony in sports-related contexts.",
+  "methods_description": "EEG was recorded with an ANT Neuro system (64 channels, 1000 Hz sampling rate). Tasks included dribbling (5 conditions), ball passing (4 conditions), and two-person passing (4 combined observation/imagery conditions and 4 PLV conditions).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -36,10 +36,10 @@
       "term": "basketball"
     },
     {
-      "term": "functional connectivity"
+      "term": "phase-locking value"
     },
     {
-      "term": "phase locking value"
+      "term": "functional connectivity"
     }
   ],
   "related_identifiers": [
@@ -72,5 +72,9 @@
     ".tsv",
     ".yml"
   ],
-  "source_hash": "38254d58d02c2d3c04f5c3a544f73daf1bba98999c4cbf0f73401b102f53e335"
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "source_hash": "1d6bcc89596537d4ab2682d01c9f0ab3da0c42aec2bf7f1a9e1ae08dbec2c36d"
 }
