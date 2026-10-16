@@ -1,5 +1,5 @@
 1.0.1 2026-10-16
-  - Moved the existing EEG recordings and sidecars into BIDS subject/eeg directories; added EEGReference: CPz to all 105 raw EEG sidecars based on their Reference values and the acquisition paper (https://doi.org/10.1038/s41597-026-08165-4). Recording payloads were unchanged.
+  - Moved the existing EEG recordings and sidecars into BIDS subject/eeg directories; documented EEGReference: CPz from the acquisition paper and used BIDS 1.8.0 n/a values for unavailable raw PowerLineFrequency and SoftwareFilters metadata across 105 raw EEG sidecars. Sources: https://doi.org/10.1038/s41597-026-08165-4 and https://bids-specification.readthedocs.io/en/v1.8.0/04-modality-specific-files/03-electroencephalography.html. Recording payloads were unchanged.
 1.1.0 2026-06-22
   - Added PLV functional connectivity matrices in CSV (comma-separated values) format alongside the existing MATLAB .mat files to improve accessibility for non-MATLAB users (Python, R, Excel).  CSV files are stored in the derivatives/plv_analysis/ directory, organized in long-format with columns: Subject, Task, Condition, ChannelA, ChannelB, TimeWindow, FreqBand, PLV.  All CSV files are identical in content to the corresponding .mat files; no new derived data have been added.
 1.0.2 2026-01-28
