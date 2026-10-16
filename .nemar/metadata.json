@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Basketball Motor Imagery EEG Dataset",
-  "description": "EEG recordings from 35 healthy participants performing three basketball-related motor observation and motor imagery tasks: single-handed dribbling, two-handed ball passing, and two-person passing. The dataset provides raw EEG, preprocessed data, and phase-locking value (PLV) functional connectivity results. It supports research on motor imagery, action observation, and inter-brain or functional connectivity in sport-related contexts.",
-  "methods_description": "EEG was recorded with an ANT Neuro system using 64 channels at a 1000 Hz sampling rate. Participants completed dribble (5 conditions), ballpass (4 conditions), and passing (4 combined conditions and 4 PLV conditions) tasks involving motor observation and motor imagery.",
+  "description": "EEG recordings from 35 healthy participants performing three basketball-related motor observation and motor imagery tasks: single-handed dribbling, two-handed ball passing, and two-person passing. The dataset includes raw EEG, preprocessed data, and phase locking value (PLV) functional connectivity results. It supports research on motor imagery, action observation, and inter-brain connectivity in sports-related contexts.",
+  "methods_description": "EEG was recorded with an ANT Neuro system (64 channels, 1000 Hz sampling rate) while participants performed dribble (5 conditions), ballpass (4 conditions), and two-person passing tasks (4 combined conditions and 4 PLV conditions). Raw data, preprocessed data, and PLV functional connectivity results are provided.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
